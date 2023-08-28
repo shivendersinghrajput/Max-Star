@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MaxStar Blog</title>
+<link href="https://shiv.12@bootstrap.30
+<style>
+ .about-section {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.contact-section {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+ /* Your custom styles can go here */
+</style>
+</head>
+<body>
+  <header class="bg-dark text-white text-center py-4">
+    <h1>MaxStar Blog</h1>
+  </header>
+  <nav class="bg-secondary text-white text-center py-2">
+    <a href="#" class="text-white mx-2">Home</a>
+    <a href="#" class="text-white mx-2">About</a>
+    <a href="#" class="text-white mx-2">Blog</a>
+    <a href="#" class="text-white mx-2">Contact</a>
+  </nav>
+  <div class="container my-4">
+    
+
+    <h2 class="mb-3">Latest Blog Post</h2>
+    <p><strong>Published on:</strong> Month Day, Year</p>
+    <h3>Blog Post Title</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in justo enim.</p>
+    <a href="#">Read more...</a>
+    <div class="comments mt-4">
+      <h2>Comments</h2>
+      <div class="comment mb-3">
+        <p><strong>Username:</strong> Lorem ipsum</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in justo enim.</p>
+      </div>
+      <div class="comment mb-3">
+        <p><strong>Username:</strong> Dolor sit</p>
+        <p>Vestibulum nec turpis nec eros condimentum luctus.</p>
+      </div>
+      <h3>Post a Comment</h3>
+      <h3>Post a Comment</h3>
+<form id="comment-form">
+  <!-- ... (previous form inputs) ... -->
+  <div class="mb-3">
+    <label for="suggestion" class="form-label">Choose a Comment Suggestion:</label>
+    <select class="form-select" id="suggestion" name="suggestion">
+      <option value="" selected>Select a suggestion...</option>
+      <option value="thoughts">Your thoughts on the latest blog post.</option>
+      <option value="resonated">What resonated with you in the article.</option>
+      <option value="insights">Additional insights related to the topic.</option>
+      <option value="questions">Questions you have about the content.</option>
+    </select>
+  </div>
+  <button type="button" class="btn btn-primary" onclick="postComment()">Post Comment</button>
+</form>
+
+      <form id="comment-form">
+        <div class="mb-3">
+          <label for="username" class="form-label">Username:</label>
+          <input type="text" class="form-control" id="username" name="username" required>
+        </div>
+        <div class="mb-3">
+          <label for="comment" class="form-label">Comment:</label>
+          <textarea class="form-control" id="comment" name="comment" rows="4" required></textarea>
+        </div>
+        <button type="button" class="btn btn-primary" onclick="postComment()">Post Comment</button>
+      </form>
+    </div>
+    <h3 class="mt-4">Nature Images</h3>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="c:/user/destop/Destop/max star blog.jpg" alt="downlod" class="img-fluid">
+      </div>
+      <div class="col-md-6">
+        <img src="c:/destop/Destop/max star blog.jpg" alt="1234" class="img-fluid">
+      </div>
+    </div>
+  </div>
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2023 MaxStar Blog. All rights reserved.</p>
+  </footer>
+  <script>
+    function postComment() { JAVASCRIPT CODE HERE
+                            
+    }
+  </script>
+</body>
+</html>
